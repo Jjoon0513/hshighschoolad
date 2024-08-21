@@ -5,9 +5,17 @@ body {
 }
 
 #title {
-
+    font-size: 100px;
 }
 
 p {
     margin: 0;
+}
+
+button {
+    height: 100px;
+    width: 300px;
+    color: black;
+    margin-bottom: 100px;
+    background-color: pink;;
 }
