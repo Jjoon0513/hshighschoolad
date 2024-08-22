@@ -15,7 +15,15 @@ p {
 button {
     height: 100px;
     width: 300px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-bottom: 100px;
-    background-color: pink;;
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    border: solid 2px pink;
+    color: pink;
 }
