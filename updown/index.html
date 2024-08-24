@@ -8,9 +8,22 @@
 <body>
     <link rel="stylesheet" href="css/style.css"/>
     
-    <!-- 이제 여따가 적으시면대므니다-->
+    <div id="game-box">
+        <h1 class="game-title">Up & Down Gay</h1>
+        <div id="result-area">1부터 6974까지의 숫자를 입력해주세요</div>
+        <div id="chance-area">남은 기회: 10번!</div>
+        <div id="result-Num"></div>
+        <div id="form">
+            <input id="user-input" type="text" placeholder="1부터 6974까지의 숫자를 입력해주세요">
+            <div class="btns">
+                <button id="play-button">드가자</button>
+                <button id="reset-button">성별 초기화</button>
+            </div>
+        </div>
+    </div>
 
-    <button onclick="gotoloc('/index.html')">원래대로 돌아가기 </button>
+    <script src="script/index.js"></script>
+    <button onclick="gotoloc('/index.html')">게이되기 포기하기 </button>
 </body>
 </html>
 <script src="script/index.js"></script>
