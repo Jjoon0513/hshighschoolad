@@ -11,7 +11,6 @@ function rainbowf(){
         
     }
     rainbow.style.color = random_color[randomv]
-    console.log("잉")
 }
 
 var rainbow_looping = setInterval(rainbowf, 70)
