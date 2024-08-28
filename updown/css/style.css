@@ -5,27 +5,35 @@
 } */
 body{
     text-align: center;
-    width: 100vw;
-    height: 100vh;
-    background: url(./images.jpg) no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: url(./images.jpg);
+    background-size: 300px;
+}
+
+div{
+    margin-bottom: 60px;
+}
+
+#game-title{
+    margin-bottom: 50px ;
+}
+
+#result-area{
+    font-size: 20px;
 }
 
 #game-box{
-    width: 30%;
-    height: 600px;
-    border: 5px solid rgba(255, 255, 255, 0);
+    border: 5px solid rgba(255, 255, 255, 100);
     background-color: rgba(195, 195, 195, 0.226);
-    padding: 50px 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    margin: 100px;
+    margin-top: 10px;
+
 }
+
+#user-input{
+    text-align: center;
+    width: 250px;
+}
+
 /*
 #result-area{
     font-size: 20px;

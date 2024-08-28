@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="css/style.css"/>
     
     <div id="game-box">
-        <h1 class="game-title">Up & Down Gay</h1>
+        <h1 id="game-title" class="rainbow">Up & Down Gay</h1>
         <div id="result-area">1부터 6974까지의 숫자를 입력해주세요</div>
         <div id="chance-area">남은 기회: 10번!</div>
         <div id="result-Num"></div>
         <div id="form">
-            <input id="user-input" type="text" placeholder="1부터 6974까지의 숫자를 입력해주세요">
+            <input 
+            id="user-input" 
+            type="number" 
+            placeholder="1부터 6974까지의 숫자를 입력해주세요"
+            min="1"
+            max="6974"
+            >
             <div class="btns">
                 <button id="play-button">드가자</button>
                 <button id="reset-button">성별 초기화</button>
@@ -28,3 +34,4 @@
 </html>
 <script src="script/index.js"></script>
 <script src="/script/index.js"></script>
+<script src="script/rainbow.js"></script>
