@@ -69,6 +69,7 @@ function reset(){
     playButton.disabled = false;
     resultArea.style.color = "black";
     chance = 10;
+    resultNum.innerText= "";
     history = [];
 }
 //포기하기를 눌렀을 때
