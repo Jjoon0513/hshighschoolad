@@ -47,14 +47,14 @@ function playGame(){
     
     }else{
         resultArea.textContent="성공하셨군요. 당신은 게이입니다.";
-        chanceArea.innerHTML="reset버튼을 눌러주세요";
+        chanceArea.innerHTML="성별을 초기화해주세요";
         playButton.disabled=true;
      
     }
  
     if(chance == 0){
         resultArea.textContent="실패하셨군요. 당신은 레즈입니다.";
-        chanceArea.innerHTML="reset버튼을 눌러주세요"
+        chanceArea.innerHTML="성별을 초기화해주세요"
         resultNum.innerText=`답은 ${computerNum}였습니다.`;
         playButton.disabled=true;
     }
