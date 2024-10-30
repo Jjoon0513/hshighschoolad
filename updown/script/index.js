@@ -7,7 +7,7 @@ let resultNum=document.getElementById("result-Num");
 let chance = 10;
 let chanceArea=document.getElementById("chance-area");
 let history=[];
-//html 글자 및 버튼
+//html 글자 및 버x
 
 chanceArea.innerHTML=`남은 기회: ${chance}번`;
 userNum.addEventListener("focus",()=>{userNum.value=""})
