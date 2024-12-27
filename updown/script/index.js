@@ -44,7 +44,6 @@ function playGame(){
     }else if(userValue<computerNum){
         resultArea.style.color = "red"
         resultArea.textContent="올려";
-    
     }else{
         resultArea.textContent="성공하셨군요. 당신은 게이입니다.";
         chanceArea.innerHTML="성별을 초기화해주세요";
